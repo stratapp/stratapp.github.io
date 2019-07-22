@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://stratapp.ai/event/event-brisbane/</loc>
+<lastmod>2017-12-14T10:00:44+00:00</lastmod>
+</url>
+<url>
+<loc>https://stratapp.ai/event/event-consultants/</loc>
+<lastmod>2017-12-14T10:00:44+00:00</lastmod>
+</url>
+<url>
+<loc>https://stratapp.ai/event/event-sydney/</loc>
+<lastmod>2017-12-14T10:00:44+00:00</lastmod>
+</url>
+<url>
+<loc>https://stratapp.ai/event/event-videocall/</loc>
+<lastmod>2017-12-14T10:00:44+00:00</lastmod>
+</url>
+<url>
 <loc>https://stratapp.ai/features/enjoy-a-mobile-version-that-adds-real-value-keeping-you-effective-on-the-go/</loc>
 <lastmod>2019-06-11T08:00:00+00:00</lastmod>
 </url>
@@ -121,6 +137,9 @@
 </url>
 <url>
 <loc>https://stratapp.ai/contact/</loc>
+</url>
+<url>
+<loc>https://stratapp.ai/events/</loc>
 </url>
 <url>
 <loc>https://stratapp.ai/fair-usage/</loc>
