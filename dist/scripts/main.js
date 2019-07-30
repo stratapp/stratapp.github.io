@@ -1,3 +1,2 @@
 !function(e,n){e.fn.inViewport=function(i){return this.each(function(t,a){function r(){var n=e(this).height(),t=a.getBoundingClientRect(),r=t.top,o=t.bottom;return i.call(a,Math.max(0,r>0?n-r:o<n?o:n))}r(),e(n).on("resize scroll",r)})}}(jQuery,window),$(".ani").inViewport(function(e){e&&$(this).addClass("animated")}),$(".shrinkable").readmore({speed:75,collapsedHeight:195,lessLink:'<a href="#" class="c-feature__link">read less</a>',moreLink:'<a href="#" class="c-feature__link">read more</a>'});
 //# sourceMappingURL=main.js.map
- 
