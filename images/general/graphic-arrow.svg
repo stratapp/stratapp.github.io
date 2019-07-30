@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="573.938" height="213.739" viewBox="0 0 573.938 213.739">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #dde3e8;
-      }
-    </style>
-  </defs>
-  <path id="Union_1" data-name="Union 1" class="cls-1" d="M-10187.967,237.94c-9.646,0-17.465-8.519-17.465-19.027V43.228c0-10.509,7.819-19.027,17.465-19.027h440.813a16.839,16.839,0,0,1,13.069,6.407l95.9,85.461a20,20,0,0,1,0,29.861l-95.525,85.13a16.9,16.9,0,0,1-13.441,6.88Z" transform="translate(10205.432 -24.201)"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="214px" viewBox="0 0 124 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>graphic-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graphic-arrow" fill="#DDE3E8" fill-rule="nonzero">
+            <path d="M0.535,213.739 L0.535,194.712 L0.535,19.027 L0.535,0 L8.278,0 C13.3800224,0.0454186142 18.1863015,2.40166853 21.347,6.407 L117.247,91.868 C121.504792,95.6628543 123.939853,101.095017 123.939853,106.7985 C123.939853,112.501983 121.504792,117.934146 117.247,121.729 L21.722,206.859 C18.5722031,211.137612 13.5937136,213.685935 8.281,213.739 L0.535,213.739 Z" id="Union_1"></path>
+        </g>
+    </g>
 </svg>
