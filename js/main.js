@@ -17,3 +17,14 @@ $(".ani").inViewport(function(px){
     if(px) $(this).addClass("animated") ;
 });
 
+/*--------------------------------
+  Swap video with autoplay video
+---------------------------------*/
+
+function autoPlayVideo(vcode, width, height){
+  "use strict";
+  $("#videoContainer").html('<iframe width="'+width+'" height="'+height+'" src="https://www.youtube.com/embed/'+vcode+'?autoplay=1&loop=1&rel=0&wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>');
+}
+jQuery('a.introVid').click(function(){
+  autoPlayVideo('LzN3WPeIhtY','450','283');
+});
