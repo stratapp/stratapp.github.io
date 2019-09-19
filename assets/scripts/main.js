@@ -36,7 +36,8 @@ if ($('#introvid').length) {
     var scrollTrigger = 600, // px
         backToTop = function () {
             var scrollTop = $(window).scrollTop();
-            if (scrollTop > scrollTrigger) {
+            console.log('scrolling ', $(window).scrollTop(), $(document).height());
+            if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= ($(document).height() - 1000)) {
                 $('#introvid').addClass('show');
             } else {
                 $('#introvid').removeClass('show');
