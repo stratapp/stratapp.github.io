@@ -70,8 +70,8 @@ function autoPlayVideo(vcode, width, height){
   $("#videoContainer").html('<iframe width="'+width+'" height="'+height+'" src="https://www.youtube.com/embed/'+vcode+'?autoplay=1&loop=1&rel=0&wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>');
 }
 jQuery('a.introVid').click(function(){
-  autoPlayVideo('LzN3WPeIhtY','850','500');
+  autoPlayVideo('U30Yx4H3ctM','850','483');
 });
 jQuery('a.introVid-fixed').click(function(){
-  autoPlayVideo('LzN3WPeIhtY','850','500');
+  autoPlayVideo('U30Yx4H3ctM','850','483');
 });
