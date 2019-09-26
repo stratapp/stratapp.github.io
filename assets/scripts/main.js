@@ -29,8 +29,37 @@ $(window).on("load", function (e) {
   });
 
 }); 
+if ($('#introvid-popup').length) {
 
+    $('#introvid-popup').click(function () {
+        var src = 'https://www.youtube.com/embed/U30Yx4H3ctM?wmode=transparent&rel=0&autoplay=1';
+        $('#explainervideo-popup').modal('show');
+        $('#explainervideo-popup iframe').attr('src', src);
+    });
 
+    // $('#explainervideo-popup button').click(function () {
+    //     $('#explainervideo-popup iframe').removeAttr('src');
+    // });
+    $('#explainervideo-popup').on('hidden.bs.modal', function () {
+      $('#explainervideo-popup iframe').removeAttr('src');
+      });
+
+    var scrollTrigger = 600, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            console.log('scrolling ', $(window).scrollTop(), $(document).height());
+            if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= ($(document).height() - 1000)) {
+                $('#introvid-popup').addClass('show');
+            } else {
+                $('#introvid-popup').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+
+}
 // Video Popup
 if ($('#introvid').length) {
     var scrollTrigger = 600, // px
