@@ -29,6 +29,18 @@ $(window).on("load", function (e) {
   });
 
 }); 
+// Book a Demo Drawer
+$(document).ready(function() {
+    $drawerRight = $('.bookademo-drawer-right');
+    $cart_list = $('.bookademo-btn, .bookademo-closebtn');
+    
+    $cart_list.click(function() {
+      $(this).toggleClass('active');
+      $('.bookademo-drawer-push').toggleClass('bookademo-drawer-pushtoleft');
+      $drawerRight.toggleClass('bookademo-drawer-open');
+    });
+  });
+
 if ($('#introvid-popup').length) {
 
     $('#introvid-popup').click(function () {

@@ -43,7 +43,7 @@
 
 
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 bookademo-drawer-push">
 
   <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP2CQGZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
 
@@ -59,6 +59,8 @@
 
 
 
+
+<div class="bg-light">
 
 
 
@@ -111,22 +113,24 @@
 
 
 
-<script type="text/javascript">var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"0238113af3d0853f3ba275599aa553c1fd7cb5dd56dd5274ad88f19676701240", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript"; s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");</script>
-
- 		<section class="l-section pt-4 mb-5 pb-3 bg-light">
+ 		<!-- <section class="l-section pt-4 mb-5 pb-3 bg-light">
           <div class="container container--small text-center">
             
-<h3 id="blog">blog</h3>
+<h1 id="blog">blog</h1>
 
 
           </div>
-        </section>
+        </section> -->
 		
 		</div>
+		<h1 class="d-none">blog</h1>
 
-		<section class="l-section l-section-mt-n pt-0">
+		<section class="l-section pt-5">
+
         	<div class="container container--small">
 		
+			
+			<a class="bookademo-btn btn btn-danger rounded-pill my-2 my-sm-0">Book a Demo</a>
 
 			
 			
@@ -136,8 +140,80 @@
 			
 			
 			
+
+			<div class="jump-menu d-inline bg-light rounded p-2 float-right">
+				
+					<a href="#articles"><h6 class="d-inline px-1">#articles</h6></a>
+				
+					<a href="#explainers"><h6 class="d-inline px-1">#explainers</h6></a>
+				
+					<a href="#tutorials"><h6 class="d-inline px-1">#tutorials</h6></a>
+				
+					<a href="#videos"><h6 class="d-inline px-1">#videos</h6></a>
+				
+			</div>
 			
 			
+			<h3 class="font-weight-bold text-danger mb-3" id="articles">articles</h3>
+			<div class="row flex-column flex-md-row">
+			 
+				 
+			 
+				 
+					<div class="col-md-4" data-aos="flip-up" data-aos-delay="150">
+						<div class="c-blog bg-white rounded-lg overflow-hidden shadow-lg mb-5">
+
+							
+								
+								<img src="https://stratapp.ai/uploads/nov17-17-481661418-Adam-Pretty-1024x576.jpg" alt="how to excel at both strategy and execution" class="c-article__img-md">
+							
+							<div class="px-4 py-3">
+						          <h5 class="font-weight-bold text-primary mb-3"><a href="https://stratapp.ai/blog/how-to-excel-at-both-strategy-and-execution/">how to excel at both strategy and execution</a></h5>
+						          <p class="mb-0">Strategy planning software that connects people to goals &amp; closes the strategy-to-execution gap. “According to a global survey of 700...... <a class="text-primary" href="https://stratapp.ai/blog/how-to-excel-at-both-strategy-and-execution/">keep reading</a></p>
+						          
+						    </div>
+						</div>
+					</div>
+				 
+			 
+				 
+					<div class="col-md-4" data-aos="flip-up" data-aos-delay="150">
+						<div class="c-blog bg-white rounded-lg overflow-hidden shadow-lg mb-5">
+
+							
+								
+										<span class="play-button"></span>
+								
+								<img src="https://stratapp.ai/uploads/rogermartin.jpg" alt="CEOs should stop thinking that execution is somebody else’s job; it is theirs" class="c-article__img-md">
+							
+							<div class="px-4 py-3">
+						          <h5 class="font-weight-bold text-primary mb-3"><a href="https://stratapp.ai/blog/ceos-should-stop-thinking/">CEOs should stop thinking that execution is som...</a></h5>
+						          <p class="mb-0">Cascading strategy throughout an organisation is easy to implement with #stratapp Professor Roger Martin is a legend on strategy. His...... <a class="text-primary" href="https://stratapp.ai/blog/ceos-should-stop-thinking/">keep reading</a></p>
+						          
+						    </div>
+						</div>
+					</div>
+				 
+			 
+				 
+					<div class="col-md-4" data-aos="flip-up" data-aos-delay="150">
+						<div class="c-blog bg-white rounded-lg overflow-hidden shadow-lg mb-5">
+
+							
+								
+								<img src="https://stratapp.ai/uploads/good%20strategy%20bad%20strategy.jpg" alt="good strategy | bad strategy" class="c-article__img-md">
+							
+							<div class="px-4 py-3">
+						          <h5 class="font-weight-bold text-primary mb-3"><a href="https://stratapp.ai/blog/good-strategy-bad-stategy/">good strategy | bad strategy</a></h5>
+						          <p class="mb-0">In our view, this is the all time greatest thinking and resource for developing and executing strategy. As Chuck Harrington,...... <a class="text-primary" href="https://stratapp.ai/blog/good-strategy-bad-stategy/">keep reading</a></p>
+						          
+						    </div>
+						</div>
+					</div>
+				 
+			 
+			</div>
+		
 			<h3 class="font-weight-bold text-danger mb-3" id="explainers">explainers</h3>
 			<div class="row flex-column flex-md-row">
 			 
@@ -305,6 +381,8 @@
 	</div>
 	</section>
 	
+	
+
 	<section class="l-section bg-light events-section-front" data-aos="fade-up" data-aos-delay="200">
 
         <div class="container">
@@ -380,10 +458,6 @@
                       </div>
                     </div>
 
-                   
-
-              
-                  
                    
 
               
@@ -506,6 +580,9 @@
 </div>
 
 
+	
+	
+
 
 </main>
  <footer class="c-footer mt-auto">
@@ -576,7 +653,124 @@
       </div>
     </footer>
   
+<div class="bookademo-drawer bg-dark bookademo-drawer-right">
 
+  
+ <section class="book-a-demo">
+	
+	<a class="bookademo-closebtn float-right text-danger bg-white rounded-circle font-weight-bold">X</a>
+
+    <h4 class="h3 font-weight-bold text-white text-left">book a demo</h4>
+
+    <p class="text-white">Enter your details and choose a time that's suitable for your personalised demo.</p>
+
+             <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads4060852000002066005 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4060852000002066005()' accept-charset='UTF-8'>
+             <input type='text' style='display:none;' name='xnQsjsdp' value='0e0451cf55ef81e789cc75a4b789b0167e95e8d9c42c171cead3a908db0d53f7'></input> 
+             <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+             <input type='text' style='display:none;' name='xmIwtLD' value='d31b5dadb4fde283500edff1888d1231c27ba428d8709f4b346cf03e72064f1e'></input> 
+             <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+             <input type='text' style='display:none;' name='returnURL' value='https://stratapp.ai/thankyou-booking/' > </input>
+             <!-- Do not remove this code. -->
+
+            <div class="row mb-1">
+              <div class="col-sm-12 mb-2">
+                <label for="formInputFirstName" class="sr-only">first name</label>
+                <input type="text" id="formInputFirstName" name='First Name' placeholder="first name" class="form-control form-control-sm">
+              </div>
+              <div class="col-sm-12 mb-2">
+                <label for="formInputLastName" class="sr-only">last name</label>
+                <input type="text" id="formInputLastName" name='Last Name' placeholder="last name" class="form-control form-control-sm">
+              </div>
+
+              <div class="col-sm-12 mb-2">
+                <label for="formInputEmail" class="sr-only">email</label>
+                <input type="text" id="formInputEmail" name='Email' placeholder="email" class="form-control form-control-sm">
+              </div>
+              <div class="col-sm-12 mb-2">
+                <label for="formInputContactNumber" class="sr-only">Contact Number</label>
+                <input type="text" id="formInputContactNumber" name="ContactNumber" placeholder="contact number" class="form-control form-control-sm">
+              </div>
+
+              <div class="col-sm-12 mb-2">
+                <label for="formInputTitle" class="sr-only">title/ position</label>
+                <input type="text" id="formInputTitle" name="Designation" placeholder="title / position" class="form-control form-control-sm">
+              </div>
+              <div class="col-sm-12 mb-2">
+                <label for="formInputOrganizationName" class="sr-only">organisation name</label>
+                <input type="text" id="formInputOrganizationName" name="Company" placeholder="organisation name" class="form-control form-control-sm">
+              </div>
+
+              <div class="col-sm-12 mb-2">
+                <label for="formInputNumEmployees" class="sr-only">number of employees</label>
+                <input type="text" id="formInputNumEmployees" name="no of employees" placeholder="number of employees" class="form-control form-control-sm">
+              </div>
+              <div class="col-sm-12 mb-2">
+                <label for="formInputLnUrl" class="sr-only">LinkedIn (optional)</label>
+                <input type="text" id="formInputLnUrl" name="LEADCF1" placeholder="LinkedIn (optional)" class="form-control form-control-sm">
+              </div>
+
+              
+            </div>
+            <select style='display:none;width:250px;' name='Lead Source'>
+              <option value='-None-'>-None-</option>
+              <option value='Direct&#x20;Contact'>Direct Contact</option>
+              <option value='P2P&#x20;referral'>P2P referral</option>
+              <option value='B2B&#x20;referral'>B2B referral</option>
+              <option value='Partner&#x20;referral'>Partner referral</option>
+              <option selected value='Website'>Website</option>
+            </select>
+            <div class="text-right">
+              <button type="submit" id="formsubmit" class="btn btn-danger rounded-pill">Submit</button>
+            </div>
+
+              	<script>
+               	  var mndFileds=new Array('Last Name','Company','Email');
+               	  var fldLangVal=new Array('Last Name','Company','Email'); 
+              		var name='';
+              		var email='';
+
+               	  function checkMandatory4060852000002066005() {
+              		for(i=0;i<mndFileds.length;i++) {
+              		  var fieldObj=document.forms['WebToLeads4060852000002066005'][mndFileds[i]];
+              		  if(fieldObj) {
+              			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+              			 if(fieldObj.type =='file')
+              				{ 
+              				 alert('Please select a file to upload.'); 
+              				 fieldObj.focus(); 
+              				 return false;
+              				} 
+              			alert(fldLangVal[i] +' cannot be empty.'); 
+                 	   	  	  fieldObj.focus();
+                 	   	  	  return false;
+              			}  else if(fieldObj.nodeName=='SELECT') {
+                	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+              				alert(fldLangVal[i] +' cannot be none.'); 
+              				fieldObj.focus();
+              				return false;
+              			   }
+              			} else if(fieldObj.type =='checkbox'){
+               	 	 	 if(fieldObj.checked == false){
+              				alert('Please accept  '+fldLangVal[i]);
+              				fieldObj.focus();
+              				return false;
+              			   } 
+              			 } 
+              			 try {
+              			     if(fieldObj.name == 'Last Name') {
+              				name = fieldObj.value;
+               	 	 	    }
+              			} catch (e) {}
+              		    }
+              		}
+              		document.getElementById('formsubmit').disabled=true;
+              	}
+              </script>
+          </form>
+        </div>
+</section> 
+
+</div>
 
   <!-- Javascript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
