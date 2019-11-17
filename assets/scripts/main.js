@@ -77,7 +77,7 @@ if ($('#introvid').length) {
     var scrollTrigger = 600, // px
         backToTop = function () {
             var scrollTop = $(window).scrollTop();
-            console.log('scrolling ', $(window).scrollTop(), $(document).height());
+           // console.log('scrolling ', $(window).scrollTop(), $(document).height());
             if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= ($(document).height() - 1000)) {
                 $('#introvid').addClass('show');
             } else {
