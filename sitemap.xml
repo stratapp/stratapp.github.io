@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://stratapp.ai/blog/social-collaboration-adding-org-design-to-save-you-time/</loc>
+<lastmod>2019-11-05T05:59:36+00:00</lastmod>
+</url>
+<url>
 <loc>https://stratapp.ai/blog/crowdsource-ideas-run-challenges-and-embrace-the-talents-of-every-employee/</loc>
 <lastmod>2019-11-12T04:34:41+00:00</lastmod>
 </url>
@@ -17,24 +21,12 @@
 <lastmod>2019-11-12T05:56:56+00:00</lastmod>
 </url>
 <url>
-<loc>https://stratapp.ai/blog/social-collaboration-adding-org-design-to-save-you-time/</loc>
-<lastmod>2019-11-12T05:59:36+00:00</lastmod>
-</url>
-<url>
 <loc>https://stratapp.ai/blog/live-meeting-notes-that-automatically-consolidate-tasks-across-all-meetings/</loc>
 <lastmod>2019-11-12T06:01:41+00:00</lastmod>
 </url>
 <url>
-<loc>https://stratapp.ai/blog/risk-management-how-to-make-it-org-wide-and-easy/</loc>
-<lastmod>2019-11-12T06:04:35+00:00</lastmod>
-</url>
-<url>
 <loc>https://stratapp.ai/blog/kpis-okrs-how-to-easily-cascade-to-every-employee-short-version/</loc>
 <lastmod>2019-11-12T06:09:33+00:00</lastmod>
-</url>
-<url>
-<loc>https://stratapp.ai/blog/kpis-okrs-how-to-easily-cascade-to-every-employee-full-version/</loc>
-<lastmod>2019-11-12T06:12:07+00:00</lastmod>
 </url>
 <url>
 <loc>https://stratapp.ai/blog/social-apps-without-structure-kill-productivity-full-version/</loc>
@@ -47,6 +39,14 @@
 <url>
 <loc>https://stratapp.ai/blog/stratapp-explainer-video/</loc>
 <lastmod>2019-11-12T06:26:09+00:00</lastmod>
+</url>
+<url>
+<loc>https://stratapp.ai/blog/risk-management-how-to-make-it-org-wide-and-easy/</loc>
+<lastmod>2019-11-27T19:04:35+00:00</lastmod>
+</url>
+<url>
+<loc>https://stratapp.ai/blog/kpis-okrs-how-to-easily-cascade-to-every-employee-full-version/</loc>
+<lastmod>2019-11-28T06:12:07+00:00</lastmod>
 </url>
 <url>
 <loc>https://stratapp.ai/events/cxos/</loc>
