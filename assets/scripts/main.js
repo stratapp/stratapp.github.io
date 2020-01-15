@@ -116,3 +116,19 @@ jQuery('a.introVid').click(function(){
 jQuery('a.introVid-fixed').click(function(){
   autoPlayVideo('U30Yx4H3ctM','850','483');
 });
+
+
+
+$(document).ready(function() {
+  $("img[data-vimeo-id]").each(function(index) {
+    var vimeoId = $(this).data('vimeo-id');
+    // Endpoint: https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/
+    $.getJSON('https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/' + vimeoId, {
+        format: "json",
+        width: "640"
+      },
+      function(data) {
+        $("img[data-vimeo-id=" + vimeoId + "]").attr('src', data.thumbnail_url);
+      });
+  }); 
+});
